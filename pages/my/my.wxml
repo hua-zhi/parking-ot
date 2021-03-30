@@ -1,0 +1,70 @@
+<!-- 登录面板 -->
+<view id="myLogin">
+  <block wx:if="{{isLogin}}">
+    <image id="myIcon" src="{{src}}"></image>
+    <text id="nickName">{{nickName}}</text>
+  </block>
+  <button wx:else open-type="getUserInfo" bindgetuserinfo="getMyInfo" type="mini">未登录，点此登录</button> 
+  <view wx:if="{{isLogin}}">
+  尊敬的<text>{{nickName}}：</text>
+    <text>   
+         您好！欢迎使用停车诱导系统！</text> 
+</view>
+ 
+</view>
+
+
+
+
+
+
+
+<view class='contain'>
+  <view class='order'>
+    <view class='order_text'>我的车位</view>
+    <view class='cut'></view>
+    <view class='order_list'>
+    <view class='cut'></view>
+      <view class='desc'>
+        <view class="desc_img"><image src='../../images/icon/pay.png'></image></view>
+            <view>我的钱包</view>
+        </view>
+    <view class='desc'>
+      <view class='desc_img'><image src='../../images/icon/yuyue.png'></image></view>
+          <view>我的预约</view>
+      </view>
+        <view class='desc'>
+      <view class='desc_img'><image src='../../images/icon/complate.png'></image></view>
+          <view>历史记录</view>
+      </view>
+    </view>
+  </view>
+  <view class='clear'></view>
+  <view class='item'>
+    <view class='icon'><image src='../../images/icon/a.png'></image></view>
+<view id="about">
+  <text class="aboutSytle" bindtap="about" >关于我们</text>
+</view>
+  </view>
+    <view class='hr'></view>
+   <view class='item' >
+    <view class='icon'><image src='../../images/icon/star.png'></image></view>
+<view id="caozuo">
+  <text class="caozuoSytle" bindtap="caozuo" >操作指南</text>
+</view>
+  </view>
+  <view class='hr'></view>
+  <view class='item'>
+    <view class='icon'><image src='../../images/icon/aggrement.png'></image></view>
+    <view id='itemname'>
+       <text class="yijianSytle" bindtap="yijian" >意见反馈</text>
+    </view>
+  </view>
+  <view class='hr'></view>
+  <view class='item'>
+    <view class='icon'><image src='../../images/icon/fankui.png'></image></view>
+    <view id='itemname'>
+      <text class="lianxiSytle" bindtap="lianxi" >联系我们</text>
+    </view>
+  </view>
+</view>

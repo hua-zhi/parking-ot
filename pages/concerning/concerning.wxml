@@ -1,0 +1,24 @@
+<!--pages/concerning/concerning.wxml-->
+<view>
+  <swiper indicator-dots autoplay interval="5000" duration="500">
+    <swiper-item class="textS0" >
+      <image src="/images/about00.png" class="aboutImg" mode="widthFix"></image>
+      <text class="swiText">欢迎使用停车诱导系统！</text>
+    </swiper-item>
+    <swiper-item  class="textS0">
+      <image src="/images/about01.png" class="aboutImg" mode="widthFix"></image>
+      <text class="swiText">欢迎使用停车诱导系统！</text>
+    </swiper-item>
+  </swiper>
+</view>
+
+
+
+
+
+<view class="box">
+	<view class="textStyle01">
+本停车车诱导系统创立于2020年8月。本停车车诱导系统将高位视频装置与停车诱导系统相结合，从而实现用一个或者少量几个摄像头代替大量传感器来采集车位信息，节省成本。同时，通过小程序将车位占用和空余情况反馈给驾驶者，从而避免了在道路上设置大量显示屏，节省成本的同时也节省了驾驶者的时间。以“节省驾驶者时间，节省停车场成本”为核心，以“找车位”“ 停车场导航”" 停车场找车”等为辅的车主服务平台，本停车车诱导系统的使命是解决停车难题，提高车位利用率，为智慧中国加速。
+	</view>
+</view>  
+

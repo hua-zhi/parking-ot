@@ -1,0 +1,49 @@
+<!-- 幻灯片滚动效果 -->
+<swiper indicator-dots autoplay interval="5000" duration="500">
+  <block wx:for="{{swiperImg}}" wx:key="swiper{{index}}">
+    <swiper-item>
+      <image src="{{item.src}}" class="slide-image"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+
+
+
+<!-- 搜索 -->
+<view class='search-input'>
+  <view class='search-img'>
+    <image class='search' src='/pages/index/search.png' mode='aspectFit'></image>
+  </view>
+  <view class='search-value'>
+    <input class='sou-input' placeholder='请输入关键字' bindtap='jumpSearch'></input>
+    <navigator url="pages/search/search" open-type="navigate"></navigator>
+  </view>
+</view>
+
+
+
+<view class='t'></view>
+<view id="ting">
+  <text class="aboutSytle" bindtap="Location">地图</text>
+</view>
+<view class='t'></view>
+<view id="ting">
+  <text class="aboutSytle" bindtap="medium">丹青楼停车场</text>
+</view>
+<view class='t'></view>
+<view id="ting">
+  <text class="aboutSytle" bindtap="medium">文法楼停车场</text>
+</view>
+<view class='t'></view>
+<view id="ting">
+  <text class="aboutSytle" bindtap="medium">交通学院停车场</text>
+</view>
+<view class='t'></view>
+<view id="ting">
+  <text class="aboutSytle" bindtap="medium">成栋楼停车场</text>
+</view>
+<view class='t'></view>
+<view id="ting">
+  <text class="aboutSytle" bindtap="medium">颐丰园停车场</text>
+</view>

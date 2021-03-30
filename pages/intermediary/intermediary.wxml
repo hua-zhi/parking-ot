@@ -1,0 +1,8 @@
+<!--pages/intermediary/intermediary.wxml-->
+<view class="xuanze">
+  <text >\n\n\n\n\n\n\n</text>
+  <button bindtap="situation"> 查看停车场情况 </button>
+  <text >\n\n\n</text>
+  <button bindtap="order">预约停车位</button>
+  <text >\n\n\n\n\n\n\n\n\n</text>
+</view>

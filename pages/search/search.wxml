@@ -1,0 +1,18 @@
+<!--pages/search/search.wxml-->
+<view class="search">
+ <input class="search_input" type="text" placeholder="parking lot" bindinput="onInput" value="{{searchValue}}"></input>
+ <button class="search_button" size="mini" bindtap="onSearch">搜索</button>
+</view>
+<!--  全部停车场信息-->
+<view class="search_content"wx:for="{{list}}" wx:if="{{condition}}">
+    <!-- <text  wx:key="unique"></text>{{item.name}}</text> -->
+  <view class="search_item" bindtap="navToMap">
+   <text>停车场名称： {{item.name}} </text>
+   <text>停车空位：  {{item.number}} </text>
+   <text>停车场距离： {{item.distance}} </text>
+  </view>
+</view>
+<!-- 匹配的停车场信息 -->
+
+  <block wx:for="{{testList.length >0 ?testList:list}}" wx:key="index"></block>
+

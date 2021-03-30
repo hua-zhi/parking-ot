@@ -1,0 +1,6 @@
+<!--pages/houduan/houduan.wxml-->
+<view>
+停车场情况
+<image src="http://123.57.155.56:8080/dachuang/ServletContextDemo51"></image>
+<button type="primary" bindtap="backToIndex">返回首页</button>
+</view>

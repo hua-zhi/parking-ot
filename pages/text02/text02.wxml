@@ -1,0 +1,32 @@
+<!-- <wxs src="../../utils/utils.wxs" module="util" /> -->
+<view>
+    <view class="seachBar">
+        <image src="/images/search.png" style="width:40rpx;height:40rpx" />
+        <input value="{{inputValue}}" focus='true' confirm-type="search" placeholder="搜索感兴趣的城市、大学、专业" bindinput="onInput" />
+    </view>
+    <view class="line"></view>
+    <view class="search-box" wx:if="{{!inputValue&&historySearch.length>0}}">
+        <view class="border-title">历史搜索</view>
+        <view class="search-content">
+            <block wx:for="{{historySearch}}" wx:key="*this">
+                <view class="search-item">{{util.join(item.content)}}</view>
+            </block>
+        </view>
+    </view>
+    <scroll-view scroll-y="true" class="search-res" hidden="{{hideScroll}}">
+        <view class="sum">共找到和“{{inputValue}}”相关的结果{{searchTip.length}}个</view>
+        <block wx:for="{{searchTip}}" wx:key="content">
+            <view class="tip-item" bindtap="itemtap" data-info="{{item}}">
+                <view class="left">
+                    <view class="tip">{{item.tip}}</view>
+                    <view class="content">
+                        <view wx:for="{{item.content}}" wx:for-item="textItem" wx:key="{{index}}" class="{{textItem == inputValue ? 'searchHigh' : '' }}">
+                            {{textItem}}
+                        </view>
+                    </view>
+                </view>
+                <image src="/images/right.png" style="width:36rpx;height:36rpx" />
+            </view>
+        </block>
+    </scroll-view>
+</view>

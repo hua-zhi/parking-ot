@@ -1,0 +1,35 @@
+.ting1Sytle{
+  font-size: 50rpx;
+  background-color: #ffffff;
+  display: flex;
+  margin:0 auto;
+  flex-direction: row;
+  height: 100rpx;
+  align-items: center;
+  width: 92%;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+  box-shadow:0rpx  8rpx  8rpx 3rpx rgb(221, 220, 220);
+}
+
+
+
+
+.qukuai{display: flex;align-items:center; background-color:#f2f2f2;}
+.qukuai_zuo{margin: 5px 10px; width:5px; height:20px; background-color: rgb(13, 163, 233);border-radius: 10px;}
+.qukuai_zhong{font-size: 16px; flex-grow: 1;}
+.qukuai_you{font-size: 14px; color: gray;padding-right: 10px;}
+
+
+.selects{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.selects>.select{
+  margin: 50rpx;
+  float: left;
+  width: 195rpx;
+}
+.selects>.select>.btn{
+ background-color: #FFFFFF;
+}

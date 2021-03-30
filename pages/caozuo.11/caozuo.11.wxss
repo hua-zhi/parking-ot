@@ -1,0 +1,35 @@
+.view{
+  font-size: 20px;
+  width: 100px;
+  color: red;
+  -webkit-animation: discoloration 10s infinite; 
+  animation: discoloration 10s infinite;
+}
+@keyframes discoloration {
+    50% {color: blue;}
+    100%{color: green;}
+}
+.view1{
+  text-indent: 30px;
+  line-height: 30px;
+}
+.view2{
+  text-indent: 30px;
+  line-height: 30px;
+}
+
+.view3{
+  font-size: 20px;
+  width: 100px;
+  color: red;
+  -webkit-animation: discoloration 10s infinite; 
+  animation: discoloration 10s infinite;
+}
+@keyframes discoloration {
+    50% {color: blue;}
+    100%{color: green;}
+}
+.view4{
+  text-indent: 30px;
+  line-height: 30px;
+}

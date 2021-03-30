@@ -1,0 +1,118 @@
+/* pages/yuyue/index.wxss */
+.jiaoshi{
+  display: flex; 
+  flex-wrap: wrap;
+  border-bottom: 3px solid orangered;
+}
+.jiaoshi_list{
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: gainsboro;
+  border-radius: 5px;
+  border:3px solid white;
+}
+.jiaoshi_xuanzhong{
+  background-color: orangered;
+  color: white;
+}
+
+
+
+
+
+ /*左右框架：总体样式*/
+
+ .fenlei{
+  height: 100%;              /*高度*/
+  box-sizing: border-box;    /*宽度包含padding*/
+  background-color: #f4f4f4; /*背景颜色*/
+  display: flex;  /*Flex布局*/
+  width: 100%;    /*宽度*/
+}
+/*框架左边样式*/
+.zuo{
+  width: 10%; /*宽度*/
+  border-right: 1px solid #ddd; /*右侧边框*/
+  font-size: 14px; /*字体大小*/
+  height: 100%;    /*高度*/
+  display: flex;   /*FLex布局*/
+  flex-direction: column; /*改变Flex默认布局row为column*/
+}
+/*框架右边样式*/
+.you{
+  width: 90%; /*宽度*/
+  background-color: white;/*背景颜色*/
+  padding-top: 5px; box-sizing: border-box;
+}
+.kongbai{ height: 60px;}
+.h30{height: 30px; display: flex;padding: 3px; justify-content: center; box-sizing: border-box;}
+.xinxi1{display: flex;align-items: center; width: 50%;}
+.xinxi1_yanse{background-color: gainsboro;width: 16px;height: 16px;}
+.xinxi1_wenzi{}
+
+.xinxi2{display: flex;align-items: center; width: 50%;}
+.xinxi2_yanse{background-color: orangered;width: 16px;height: 16px;}
+.xinxi2_wenzi{}
+
+
+
+.paishu{text-align: center;height: 35px;line-height: 35px;}
+.pingmu{width: 100%;display: flex;justify-content: left;  height: 30px;}
+.pingmu_biaoti{width: 30%; background-color: gainsboro; color:orangered; text-align: center; height: 30px; line-height: 30px;}
+
+.zuowei{ display: flex;flex-wrap: wrap;font-size: 11px;}
+.zuowei_list{
+  width:10%;
+  padding: 5px; height: 35px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: gainsboro;
+  border-radius: 5px;
+  border:3px solid white;
+}
+
+.zuowei_list2{
+width:10%;
+padding: 2px; height: 35px;
+box-sizing: border-box;
+text-align: center;
+background-color: gainsboro;
+border-radius: 5px;
+border:3px solid white;
+}
+
+.zuowei_xuanzhong{
+background-color: orangered;
+color: white;
+}
+
+.qukuai{display: flex;align-items:center; background-color:#f2f2f2;}
+.qukuai_zuo{margin: 5px 10px; width:5px; height:20px; background-color: rgb(13, 163, 233);border-radius: 10px;}
+.qukuai_zhong{font-size: 16px; flex-grow: 1;}
+.qukuai_you{font-size: 14px; color: gray;padding-right: 10px;}
+
+.riqi{
+  display: flex; 
+  flex-wrap: wrap;
+  font-size: 13px;
+}
+.riqi_list{
+  width: 25%;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: gainsboro;
+  border-radius: 5px;
+  border:3px solid white;
+}
+.riqi_xuanzhong{
+  background-color: orangered;
+  color: white;
+}
+.changci{ height: 100px; border-bottom:1px dotted red;}
+.neirong{font-size: 14px;color: green; padding: 10px;}
+.tijiao{background-color:orangered; color: white; width: 100%;}
+
+

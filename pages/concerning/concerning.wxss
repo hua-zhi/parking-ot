@@ -1,0 +1,23 @@
+/* pages/concerning/concerning.wxss */
+.textS0{
+  border:1px solid ;
+  color:rgb(60, 60, 87);
+  background-color:cyan;
+}
+.aboutImg{
+  width: 800rpx;
+}
+.swiText{
+  align-items: center;
+}
+
+
+
+.textStyle01 {
+  color: #00f;
+ 
+  text-align: left;
+  text-indent: 30px;
+  line-height: 30px;
+  white-space: normal;
+}

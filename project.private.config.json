@@ -1,0 +1,89 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/houduan/houduan",
+          "pathName": "pages/houduan/houduan",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/parking/parking",
+          "pathName": "pages/parking/parking",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/handBook/handBook",
+          "pathName": "pages/handBook/handBook",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/intermediary/intermediary",
+          "pathName": "pages/intermediary/intermediary",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/my/my",
+          "pathName": "pages/my/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/search",
+          "pathName": "pages/search",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/search/search",
+          "pathName": "pages/search/search",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mock/mock",
+          "pathName": "pages/mock/mock",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/mock2/mock2",
+          "pathName": "pages/mock2/mock2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/text01/text01",
+          "pathName": "pages/text01/text01",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/text02/text02",
+          "pathName": "pages/text02/text02",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

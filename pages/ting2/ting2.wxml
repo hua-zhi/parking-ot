@@ -1,0 +1,94 @@
+<view class="fenlei">
+		
+   <!-- 左侧分类 -->
+   <view class='zuo' style='height:{{winHeight-100}}px'>
+       <view class="kongbai"></view>       					
+       <view>
+            <view class="paishu">1</view>
+            <view class="paishu">2</view>
+            
+       </view>
+   </view>
+  
+ 
+   <!-- 右侧 产品-->
+   <scroll-view scroll-y class='you' style='height:{{winHeight-100}}px'>
+        <view class="pingmu">
+            <view class="pingmu_biaoti">出入口</view>
+        </view>
+        <view class="h30">
+            <view class="xinxi1">
+                <view class="xinxi1_yanse"></view>
+                <view class="xinxi1_wenzi">可选车位</view>
+            </view>
+            <view class="xinxi2">
+                <view class="xinxi2_yanse"></view>
+                <view class="xinxi2_wenzi">已选车位</view>
+            </view>                       
+        </view>
+        
+        <view class="zuowei">
+                <checkbox class="zuowei_list2" value='1'></checkbox>
+                <checkbox class="zuowei_list2" value='2'></checkbox>
+                <checkbox class="zuowei_list2" value='3'></checkbox>
+              
+                
+
+             
+            
+
+
+                <checkbox class="zuowei_list2" value='1'></checkbox>
+                <checkbox class="zuowei_list2" value='2'></checkbox>
+                   <checkbox class="zuowei_list2" value='3'></checkbox>
+            
+             
+
+                <checkbox class="zuowei_list2" value='1'></checkbox>
+                <checkbox class="zuowei_list2" value='2'></checkbox>
+                    <checkbox class="zuowei_list2" value='3'></checkbox>
+             
+             
+
+                <checkbox class="zuowei_list2" value='1'></checkbox>
+                <checkbox class="zuowei_list2" value='2'></checkbox>
+                    <checkbox class="zuowei_list2" value='3'></checkbox>
+              
+              
+
+                <checkbox class="zuowei_list2" value='1'></checkbox>
+                <checkbox class="zuowei_list2" value='2'></checkbox>
+                  <checkbox class="zuowei_list2" value='3'></checkbox> 
+              
+               
+ 
+                <checkbox class="zuowei_list2" value='1'></checkbox>
+                <checkbox class="zuowei_list2" value='2'></checkbox>
+                   <checkbox class="zuowei_list2" value='3'></checkbox>
+            
+                
+
+                <checkbox class="zuowei_list2" value='1'></checkbox>
+                <checkbox class="zuowei_list2" value='2'></checkbox>
+                   <checkbox class="zuowei_list2" value='3'></checkbox>
+              
+              
+
+        </view>
+   
+
+<button class="tijiao">
+<view id='tijiao'>
+      <text class="tijiaoSytle"size='mini' bindtap="tijiao" >提交预约</text>
+    </view>
+</button>
+   </scroll-view>
+ 
+		
+</view>
+
+
+
+
+
+

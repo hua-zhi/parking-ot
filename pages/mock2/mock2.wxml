@@ -1,0 +1,29 @@
+<view class="cp_tanchuang">
+  <view>请选择停车场</view>
+  <input class="wx-input" value="{{xq_name}}" bindtap="cp_tanchuang" />  
+  <!-- <view wx:if="{{buttonState}}"> -->
+   <button size="mini" bindtap="new">前往</button>
+  <!-- </view> -->
+</view>
+
+<view id="cp_tanchuang_body" class="cp_tanchuang_body" hidden="{{hiddenState}}">
+  <view class="cp_tanchuang_x" bindtap="cp_tanchuang_X">X</view>
+  <view class="section__title">选择</view>
+  <input class="wx-input" auto-focus placeholder="请输入搜索内容" value="{{input_value}}" bindinput="bind_input_so_value" />
+  
+  <button class="wx-button" bindtap="txt_input" size="mini"> 搜索 </button>
+  <view class="section__body">
+    <view class="section__list" bindtap="section_clink" wx:for="{{sectionlist}}" wx:for-item="sectionlist"
+      data-section_list_id="{{sectionlist.id}}" 
+      data-section_list_name="{{sectionlist.name}}" 
+      data-section_list_number="{{sectionlist.number}}"
+      data-section_list_distance="{{sectionlist.distance}}">
+      {{sectionlist.name}}  空余车位:{{sectionlist.number}}  距离：{{sectionlist.distance}}
+    </view>
+
+
+    <!--保留下面2个view-->
+    <view class="section__list"></view>
+    <view class="section__list"></view>
+  </view>
+</view>

@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/houduan/houduan",
+    "pages/handBook/handBook",
+    "pages/parking/parking",
+    "pages/intermediary/intermediary",
+    "pages/my/my",
+    "pages/caozuo.11/caozuo.11",
+    "pages/lianxi11/lianxi11",
+    "pages/concerning/concerning",
+    "pages/yijian11/yijian11",
+    "pages/tijiao11/tijiao11",
+    "pages/ting1/ting1",
+    "pages/ting2/ting2",
+    "pages/search/search",
+    "pages/mock/mock",
+    "pages/mock2/mock2",
+    "pages/text01/text01",
+    "pages/text02/text02"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置仅被用于小程序接口使用"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4da9ff",
+    "navigationBarTitleText": "停车诱导系统",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#4da9ff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-h.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "反馈&指南",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mine-2.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

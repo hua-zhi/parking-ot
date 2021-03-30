@@ -1,0 +1,3 @@
+<!--pages/mock/mock.wxml-->
+<text>pages/mock/mock.wxml</text>
+<view bindtap="mock_data">模拟数据</view>

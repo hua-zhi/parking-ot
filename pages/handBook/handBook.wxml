@@ -1,0 +1,22 @@
+<!--pages/handBook/handBook.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view>
+    <view id="gap">
+    
+      <button class="Button">>>关于我们</button>
+      
+      <button class="operate">>>操作指南</button>
+      
+      <button class="feedbook">>>意见反馈</button>
+     
+      <button open-type="contact">>>联系我们</button>
+    </view>
+  </view>
+</view>

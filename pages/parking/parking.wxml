@@ -1,0 +1,27 @@
+<view id='ting1' class='ting1'>
+  <text class="ting1Sytle" size='mini' bindtap="ting1">确定</text>
+</view>
+
+
+<view class="qukuai">
+  <view class="qukuai_zuo"></view>
+  <view class="qukuai_zhong">请选择预约车位和时间</view>
+  <navigator class="qukuai_you" url=""></navigator>
+</view>
+
+<view class='selects'>
+  <block wx:key="index" wx:for='{{ selects }}'>
+    <view class='select' id='{{index}}' bindtap='changeColor'>
+      <block wx:if="{{index==clickId}}">
+        <button class='btn' style='color:black'>
+          {{ item }}
+        </button>
+      </block>
+      <block wx:else>
+        <button class='btn' style='color:red'>
+          {{ item }}
+        </button>
+      </block>
+    </view>
+  </block>
+</view>

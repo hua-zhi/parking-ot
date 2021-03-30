@@ -1,0 +1,14 @@
+<!--pages/caozuo.11/caozuo.11.wxml-->
+
+<view class="view">1.寻找车位</view>
+<view class="view1">
+   ①点击“首页”→点击屏幕上方“搜索”→输入目的地停车场→点击“xxx停车场”→寻找空余车位→预约车位→一键导航前往停车场并在规定时间内进入停车场停车。  
+</view>
+<view class="view2">
+②点击“首页”→点击“xxx停车场”→寻找空余车位→预约车位→在规定时间内进入停车场并停车。
+</view>
+
+<view class="view3">2.更改模式</view>
+<view class="view4">
+   ①点击“点击“模式”→选择“模式选项”→确定选择→完成模式更改。
+</view>
